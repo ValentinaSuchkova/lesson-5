@@ -4,7 +4,7 @@ import os
 
 def test_qa_reg_form():
 
-    browser.open('/')
+    browser.open('/automation-practice-form')
 
     #User data
     browser.element('#firstName').should(be.blank).type("Tina")
